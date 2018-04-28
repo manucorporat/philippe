@@ -1,0 +1,6 @@
+Change Log
+==========
+
+1.0.0
+----
+- Created based on original code by Ben Croston
