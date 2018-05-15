@@ -1,7 +1,6 @@
 
-from multiprocessing import Pipe
+from multiprocessing import Pipe, Process
 from .engine import Engine
-from multiprocessing import Process
 
 class Philippe:
   def __init__(self):

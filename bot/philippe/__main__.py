@@ -1,11 +1,10 @@
-#!/usr/bin/env python
-
 from .philippe import Philippe
 from .server import Server
 
 def main():
   bot = Philippe()
-  bot.start()
+  process = bot.start()
+  process.join()
 
   server = Server(bot)
   server.run()
